@@ -1,15 +1,26 @@
-# Immo-Eliza Property Price Prediction
+# Immo-Eliza Property Price Prediction 🏡
 
-## Overview
+## Overview 📝
+
 This project aims to predict property prices in Belgium using machine learning techniques. Developed as part of a skill enhancement initiative, it leverages the BeCode dataset to train a Random Forest Regressor model, focusing on features like total area, surface area, postal code, latitude, longitude, and the number of bedrooms.
 
-## Getting Started
+## Table of Contents 🔍
+- [Getting Started 🚀](#getting-started-🚀)
+- [Prerequisites 🔑](#prerequisites-🔑)
+- [Installation 🔧](#installation-🔧)
+- [Usage 🔄](#usage-🔄)
+- [Project Structure 📁](#project-structure-📁)
+- [Maintainers 👷‍♂️](#maintainers-👷‍♂️)
+- [License ⚖️](#license-⚖️)
+- [Models Card](MODELSCARD.md)
 
-### Prerequisites
+## Getting Started 🚀
+
+### Prerequisites 🔑
 - Python 3.8+
 - Pip for package installation
 
-### Installation
+### Installation 🔧
 
     git@github.com:Danil-Zhuravlov/immo-eliza-ml.git
     cd immo-eliza-ml
@@ -27,7 +38,7 @@ On Windows use
 
     pip install -r requirements.txt
 
-### Usage
+### Usage 🔄
 
 - **Training the model**
 
@@ -41,7 +52,7 @@ Use the `predict.py` script to make price predictions on new property data. The 
 
     python3 predict.py
 
-## Project Structure
+## Project Structure 📁
 - `data/`: Folder containing the dataset used for training.
 - `train.py`: Script for training the machine learning model.
 - `predict.py`: Script for making predictions using the trained model.
@@ -50,8 +61,8 @@ Use the `predict.py` script to make price predictions on new property data. The 
 - `README.md`: This file, providing an overview and instructions for the project.
 - `MODELSCARD.md`: Detailed information about the machine learning model.
 
-## Maintainers
+## Maintainers 👷‍♂️
 For any questions or issues, please contact [Danil Zhuravlov](https://www.linkedin.com/in/danil-zhuravlov/).
 
-## License
+## License ⚖️
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
