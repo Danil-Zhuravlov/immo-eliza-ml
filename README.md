@@ -48,6 +48,12 @@ Run the `train.py` script to train the model on the provided dataset. This scrip
 
 - **Making predictions**
 
+To change the features used for prediction, modify the `predict.py` script. To do so change the highlighted features in the code as shown below:
+
+![Predict Setting](images/predict_setting.png)
+
+Use this guide to get the latitude and longitude of the property: [Google Maps Help](https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop#:~:text=of%20a%20place-,On%20your%20computer%2C%20open%20Google%20Maps.,decimal%20format%20at%20the%20top.).
+
 Use the `predict.py` script to make price predictions on new property data. The script loads the trained model and uses it to predict the price based on the input features.
 
     python3 predict.py

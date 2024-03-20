@@ -4,7 +4,7 @@ from joblib import load
 # Load the trained model
 model = load('model.joblib')
 
-# Example input data, with placeholder values for other features
+
 new_data = {
     'total_area_sqm': [90],
     'surface_land_sqm': [0],
