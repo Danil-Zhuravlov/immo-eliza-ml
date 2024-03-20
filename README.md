@@ -12,7 +12,7 @@ This project aims to predict property prices in Belgium using machine learning t
 - [Project Structure 📁](#project-structure-📁)
 - [Maintainers 👷‍♂️](#maintainers-👷‍♂️)
 - [License ⚖️](#license-⚖️)
-- [Models Card](MODELSCARD.md)
+- [Models Card 🧠](MODELSCARD.md)
 
 ## Getting Started 🚀
 
